@@ -1,0 +1,32 @@
+{
+    "name": "snippet-store",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "@apollo/server": "^4.12.1",
+        "bcryptjs": "^3.0.2",
+        "cors": "^2.8.5",
+        "dataloader": "^2.2.3",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "graphql": "^16.11.0",
+        "graphql-depth-limit": "^1.1.0",
+        "graphql-tag": "^2.12.6",
+        "graphql-validation-complexity": "^0.4.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.15.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
+}

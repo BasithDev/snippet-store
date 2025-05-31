@@ -1,0 +1,190 @@
+:root {
+  /* Light theme (default) */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f3f3f3;
+  --text-primary: #000000;
+  --text-secondary: #4b5563;
+  --text-muted: #6b7280;
+  --border-color: #e5e7eb;
+  --input-bg: #ffffff;
+  --button-bg: #000000;
+  --button-text: #ffffff;
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+body.dark-theme {
+  /* Dark theme */
+  --bg-primary: #121212;
+  --bg-secondary: #1e1e1e;
+  --text-primary: #ffffff;
+  --text-secondary: #d1d5db;
+  --text-muted: #9ca3af;
+  --border-color: #374151;
+  --input-bg: #1e1e1e;
+  --button-bg: #ffffff;
+  --button-text: #000000;
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Apply smooth transitions when theme changes */
+body, button, input, div, h1, h2, h3, h4, h5, h6, p, span, a, svg, path {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Global theme styles */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Text styles */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+}
+
+p, span, a {
+  color: var(--text-primary);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+svg {
+  color: var(--text-primary);
+}
+
+/* Header styles */
+header {
+  background-color: var(--bg-primary);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Input styles */
+input {
+  background-color: var(--input-bg);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+input::placeholder {
+  color: var(--text-muted);
+}
+
+/* Button styles */
+.primary-button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+}
+
+.primary-button:hover {
+  opacity: 0.9;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+.secondary-button:hover {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+  opacity: 0.9;
+}
+
+button {
+  color: var(--text-primary);
+}
+
+/* Modal styles */
+.modal-content {
+  background-color: var(--bg-primary);
+  box-shadow: var(--shadow);
+}
+
+/* Title shadow effects */
+.title-shadow {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .title-shadow {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.7), 0 0 30px rgba(255, 255, 255, 0.2);
+}
+
+.title-glow {
+  text-shadow: 0 0 10px #3b82f6, 0 0 20px #3b82f6, 0 0 30px #3b82f6;
+}
+
+.dark-theme .title-glow {
+  text-shadow: 0 0 10px #60a5fa, 0 0 20px #60a5fa, 0 0 30px #60a5fa;
+}
+
+/* Title shadow effects */
+.title-shadow {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .title-shadow {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.7), 0 0 30px rgba(255, 255, 255, 0.2);
+}
+
+.title-glow {
+  text-shadow: 0 0 10px #3b82f6, 0 0 20px #3b82f6, 0 0 30px #3b82f6;
+}
+
+.dark-theme .title-glow {
+  text-shadow: 0 0 10px #60a5fa, 0 0 20px #60a5fa, 0 0 30px #60a5fa;
+}
+
+/* Title shadow effects */
+.title-shadow {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .title-shadow {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.7), 0 0 30px rgba(255, 255, 255, 0.2);
+}
+
+.title-glow {
+  text-shadow: 0 0 10px #3b82f6, 0 0 20px #3b82f6, 0 0 30px #3b82f6;
+}
+
+.dark-theme .title-glow {
+  text-shadow: 0 0 10px #60a5fa, 0 0 20px #60a5fa, 0 0 30px #60a5fa;
+}
+
+/* Title shadow effects */
+.title-shadow {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .title-shadow {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.7), 0 0 30px rgba(255, 255, 255, 0.2);
+}
+
+.title-glow {
+  text-shadow: 0 0 10px #3b82f6, 0 0 20px #3b82f6, 0 0 30px #3b82f6;
+}
+
+.dark-theme .title-glow {
+  text-shadow: 0 0 10px #60a5fa, 0 0 20px #60a5fa, 0 0 30px #60a5fa;
+}
+
+@keyframes blink-shadow {
+  0%, 100% {
+    box-shadow: 0 0 20px 10px rgba(96, 165, 250, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 5px 2px rgba(96, 165, 250, 0.1);
+  }
+}
+
+.blink-shadow {
+  animation: blink-shadow 2s infinite ease-in-out;
+}
+
+.blink-shadow:hover {
+  animation-play-state: paused;
+  box-shadow: 0 0 20px 10px rgba(96, 165, 250, 0.3);
+}
